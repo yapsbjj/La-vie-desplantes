@@ -1,0 +1,9 @@
+0000.002 (0) Opened log file at time: Tue, 16 Jan 2024 04:57:10 +0000 on http://la-vie-des-plantes.local
+0000.269 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.000 (1) Opened log file at time: Mon, 29 Jan 2024 08:32:51 +0000 on http://la-vie-des-plantes.local
+0000.313 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.5M | 22M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.679 (1) Free space on disk containing Updraft's temporary directory: 802307.4 MB
+0001.267 (1) Requesting backup semaphore lock (a055830915cb)
+0001.906 (1) [Debug] Lock option (updraft_lock_a055830915cb, wp_options) was created in the database
+0002.362 (1) [Info] Lock (updraft_lock_a055830915cb, wp_options) acquired after initialising the database
+0002.736 (1) This backup task (a055830915cb) is either complete or began over 2 days ago: ending (1706517171.2613, ) (existing jobdata keys: )

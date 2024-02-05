@@ -1,0 +1,919 @@
+0000.003 (0) Opened log file at time: Mon, 15 Jan 2024 11:47:23 +0000 on http://la-vie-des-plantes.local
+0000.266 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 18M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.482 (0) Free space on disk containing Updraft's temporary directory: 815065.1 MB
+0000.816 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0001.130 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.766 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1704922998, seconds_ago=396246)
+0002.901 (0) Set semaphore last lock (fd) time to 2024-01-15 11:47:26
+0003.443 (0) Semaphore lock (fd) complete
+0004.558 (0) Backup run: resumption=0, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (4s ago), job type=backup
+0005.169 (0) Scheduling a resumption (1) after 300 seconds (1705319548) in case this run gets aborted
+0006.109 (0) Checking if we have a zip executable available
+0006.564 (0) Creation of backups of directories: beginning
+0007.672 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0048.666 (0) Total entities for the zip file: 1252 directories, 6269 files (0 skipped as non-modified), 109.5 MB
+0049.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0051.576 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 100 files added (on-disk size: 283.2 KB)
+0052.317 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 200 files added (on-disk size: 283.2 KB)
+0052.684 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 300 files added (on-disk size: 283.2 KB)
+0053.070 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 400 files added (on-disk size: 283.2 KB)
+0053.605 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 500 files added (on-disk size: 283.2 KB)
+0054.102 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.3 MB, 500 (501) files added so far); re-opening (prior size: 283.2 KB)
+0072.145 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 600 files added (on-disk size: 4382.5 KB)
+0072.813 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 700 files added (on-disk size: 4382.5 KB)
+0073.238 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 800 files added (on-disk size: 4382.5 KB)
+0073.821 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 900 files added (on-disk size: 4382.5 KB)
+0074.212 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1000 files added (on-disk size: 4382.5 KB)
+0075.086 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.2 MB, 500 (1001) files added so far); re-opening (prior size: 4382.5 KB)
+0086.392 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1100 files added (on-disk size: 5459.2 KB)
+0086.872 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1200 files added (on-disk size: 5459.2 KB)
+0087.557 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1300 files added (on-disk size: 5459.2 KB)
+0087.944 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1400 files added (on-disk size: 5459.2 KB)
+0088.308 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 6269 files batched, 411 (1412) added so far); re-opening (prior size: 5459.2 KB)
+0106.737 (0) A useful amount of data was added after this amount of zip processing: 21 s (normalised: 20.8 s, rate: 1228.4 KB/s)
+0107.699 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1500 files added (on-disk size: 10381.8 KB)
+0108.269 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1600 files added (on-disk size: 10381.8 KB)
+0108.612 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1700 files added (on-disk size: 10381.8 KB)
+0109.139 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1800 files added (on-disk size: 10381.8 KB)
+0109.534 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 1900 files added (on-disk size: 10381.8 KB)
+0110.071 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (11 MB, 489 (1901) files added so far); re-opening (prior size: 10381.8 KB)
+0143.218 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2000 files added (on-disk size: 14631.8 KB)
+0143.733 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2100 files added (on-disk size: 14631.8 KB)
+0144.076 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2200 files added (on-disk size: 14631.8 KB)
+0144.673 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2300 files added (on-disk size: 14631.8 KB)
+0145.004 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2400 files added (on-disk size: 14631.8 KB)
+0145.402 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2500 files added (on-disk size: 14631.8 KB)
+0145.791 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (19.8 MB, 600 (2501) files added so far); re-opening (prior size: 14631.8 KB)
+0162.082 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2600 files added (on-disk size: 20478.8 KB)
+0162.565 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2700 files added (on-disk size: 20478.8 KB)
+0163.059 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2800 files added (on-disk size: 20478.8 KB)
+0163.455 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 2900 files added (on-disk size: 20478.8 KB)
+0163.751 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3000 files added (on-disk size: 20478.8 KB)
+0164.123 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3100 files added (on-disk size: 20478.8 KB)
+0164.744 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3200 files added (on-disk size: 20478.8 KB)
+0165.202 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.1 MB, 700 (3201) files added so far); re-opening (prior size: 20478.8 KB)
+0176.383 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3300 files added (on-disk size: 22146.7 KB)
+0178.408 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3400 files added (on-disk size: 22146.7 KB)
+0178.972 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 200 (3401) files added so far); re-opening (prior size: 22146.7 KB)
+0190.053 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3500 files added (on-disk size: 22530.2 KB)
+0190.422 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3600 files added (on-disk size: 22530.2 KB)
+0190.665 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3700 files added (on-disk size: 22530.2 KB)
+0191.229 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3800 files added (on-disk size: 22530.2 KB)
+0191.834 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 3900 files added (on-disk size: 22530.2 KB)
+0192.337 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4000 files added (on-disk size: 22530.2 KB)
+0192.638 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4100 files added (on-disk size: 22530.2 KB)
+0193.028 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.5 MB, 700 (4101) files added so far); re-opening (prior size: 22530.2 KB)
+0203.885 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4200 files added (on-disk size: 25772.5 KB)
+0204.249 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4300 files added (on-disk size: 25772.5 KB)
+0204.586 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4400 files added (on-disk size: 25772.5 KB)
+0204.874 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4500 files added (on-disk size: 25772.5 KB)
+0205.183 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4600 files added (on-disk size: 25772.5 KB)
+0205.701 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4700 files added (on-disk size: 25772.5 KB)
+0205.961 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 600 (4701) files added so far); re-opening (prior size: 25772.5 KB)
+0225.447 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4800 files added (on-disk size: 26803.7 KB)
+0226.474 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 4900 files added (on-disk size: 26803.7 KB)
+0227.540 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5000 files added (on-disk size: 26803.7 KB)
+0227.844 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.4 MB, 300 (5001) files added so far); re-opening (prior size: 26803.7 KB)
+0240.778 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5100 files added (on-disk size: 30368 KB)
+0241.250 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5200 files added (on-disk size: 30368 KB)
+0241.645 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5300 files added (on-disk size: 30368 KB)
+0241.941 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5400 files added (on-disk size: 30368 KB)
+0242.413 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5500 files added (on-disk size: 30368 KB)
+0242.769 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.8 MB, 596 (5597) files added so far); re-opening (prior size: 30368 KB)
+0253.965 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5600 files added (on-disk size: 34440.5 KB)
+0254.680 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5700 files added (on-disk size: 34440.5 KB)
+0255.264 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5800 files added (on-disk size: 34440.5 KB)
+0255.769 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 242 (5839) files added so far); re-opening (prior size: 34440.5 KB)
+0271.434 (0) The time we have been running (270.2) is approaching the resumption interval (300) - increasing resumption interval to 301
+0272.047 (0) The scheduled resumption is within 45 seconds - will reschedule
+0272.750 (0) Rescheduling resumption 1: moving to 346 seconds from now (1705319861)
+0273.759 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 301 + 45 = 346
+0274.945 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 5900 files added (on-disk size: 35090.2 KB)
+0276.098 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 6000 files added (on-disk size: 35090.2 KB)
+0276.873 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 162 (6001) files added so far); re-opening (prior size: 35090.2 KB)
+0284.897 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 6100 files added (on-disk size: 35462.7 KB)
+0285.347 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.tmp: 6200 files added (on-disk size: 35462.7 KB)
+0293.474 (0) Creating zip file manifest (backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip.list-temp.tmp)
+0293.965 (0) Successfully created zip file manifest (size: 516665)
+0296.501 (0) Created plugins zip (0) - 35776.6 KB in 288.1 s (124.2 KB/s) (sha1: a917f1435fafdc38f1ca353c2d94804dd323d219, sha256: 63554e458016dbf4780e729d09c89da4ee002995ce5bcb695645287d6c30bce7)
+0297.564 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0297.673 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0297.922 (0) Google Drive: this account is not authorised
+0298.039 (0) An error condition has occurred for the first time during this job
+0298.648 (0) Beginning creation of dump of themes (split every: 400 MB)
+0299.323 (0) Total entities for the zip file: 10 directories, 67 files (0 skipped as non-modified), 0.8 MB
+0300.484 (0) Creating zip file manifest (backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip.list-temp.tmp)
+0300.643 (0) Successfully created zip file manifest (size: 3743)
+0301.867 (0) Created themes zip (0) - 607 KB in 2.6 s (229.6 KB/s) (sha1: dda5a94d416358fd8cb2be7e598a351946dd4ff0, sha256: 2c8724879b13a0791754c1ab54eb830c8c56e53cc16463e5ebd9d266dd2fe774)
+0302.479 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0302.826 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0303.126 (0) Google Drive: this account is not authorised
+0304.670 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0304.928 (0) Looking for candidates to backup in: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content/uploads
+0305.314 (0) finding files: 2024: adding to list (1)
+0305.683 (0) finding files: elementor: adding to list (2)
+0306.006 (0) finding files: wpforms: adding to list (3)
+0306.321 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0307.206 (0) Total entities for the zip file: 6 directories, 41 files (0 skipped as non-modified), 2.2 MB
+0308.697 (0) Creating zip file manifest (backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip.list-temp.tmp)
+0308.978 (0) Successfully created zip file manifest (size: 2353)
+0310.384 (0) Created uploads zip (0) - 1161.5 KB in 3.4 s (337.8 KB/s) (sha1: 292fd73857d672fb0cf81de5a405fb698a32867d, sha256: 69cc7a0d8cf0c27ddee99203c72de1cdf7cae0ac53218241b685658667f94ccc)
+0310.951 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0311.205 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0311.548 (0) Google Drive: this account is not authorised
+0312.674 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0312.954 (0) Does not exist: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content/mu-plugins
+0313.258 (0) There are no mu-plugins to backup. Will not raise an error.
+0313.506 (0) mu-plugins: create_zip returned an error
+0314.171 (0) Beginning backup of other directories found in the content directory (index: 0)
+0314.440 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0314.851 (0) Looking for candidates to backup in: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content
+0315.213 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0315.459 (0) finding files: cache: skipping: excluded by options
+0315.828 (0) finding files: index.php: adding to list (1)
+0316.102 (0) finding files: languages: adding to list (2)
+0316.416 (0) finding files: plugins: skipping: this is the plugins directory
+0316.592 (0) finding files: themes: skipping: this is the themes directory
+0316.883 (0) finding files: updraft: skipping: this is the updraft directory
+0317.143 (0) finding files: upgrade: skipping: excluded by options
+0317.459 (0) finding files: upgrade-temp-backup: adding to list (3)
+0317.761 (0) finding files: uploads: skipping: this is the uploads directory
+0318.620 (0) Total entities for the zip file: 5 directories, 155 files (0 skipped as non-modified), 5.5 MB
+0319.133 (0) Zip: backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0325.465 (0) The time we have been running (324.2) is approaching the resumption interval (346) - increasing resumption interval to 355
+0326.205 (0) Creating zip file manifest (backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip.list-temp.tmp)
+0326.544 (0) Successfully created zip file manifest (size: 11034)
+0327.708 (0) Created others zip (0) - 1605.5 KB in 9.5 s (168.9 KB/s) (sha1: f6933cfc3e0a65852510792e68c5d887019f5d0a, sha256: 2e3464374503c2b66faeb1dc69d60784134e5ca8444843f4dee70e55e020ec38)
+0328.301 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0328.610 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0328.963 (0) Google Drive: this account is not authorised
+0330.631 (0) Saving backup status to database (elements: 8)
+0331.552 (0) Beginning creation of database dump (WordPress DB)
+0332.206 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0334.717 (0) Table wp_options: Total expected rows (via COUNT): 333
+0335.029 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0335.737 (0) Table wp_options: Rows added in this batch (next record: 1101): 329 (uncompressed bytes in this segment=1632032) in 1.49 seconds
+0337.469 (0) The time we have been running (336.3) is approaching the resumption interval (355) - increasing resumption interval to 367
+0338.895 (0) The time we have been running (338) is approaching the resumption interval (367) - increasing resumption interval to 368
+0339.411 (0) Table wp_options: finishing file(s) (2, 256.6 KB)
+0340.388 (0) Table wp_users: Total expected rows (via COUNT): 1
+0340.650 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0341.221 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1398) in 0.88 seconds
+0342.805 (0) The time we have been running (341.7) is approaching the resumption interval (368) - increasing resumption interval to 372
+0344.791 (0) The time we have been running (343.4) is approaching the resumption interval (372) - increasing resumption interval to 374
+0345.454 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0346.735 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0347.020 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0347.717 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 28 (uncompressed bytes in this segment=2975) in 1.30 seconds
+0350.169 (0) The time we have been running (348.4) is approaching the resumption interval (374) - increasing resumption interval to 379
+0352.148 (0) The time we have been running (350.8) is approaching the resumption interval (379) - increasing resumption interval to 381
+0352.696 (0) Table wp_usermeta: finishing file(s) (2, 1.5 KB)
+0354.596 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 22
+0355.255 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0355.675 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 101): 22 (uncompressed bytes in this segment=10573) in 1.89 seconds
+0357.868 (0) The time we have been running (356.7) is approaching the resumption interval (381) - increasing resumption interval to 387
+0359.610 (0) The time we have been running (358.6) is approaching the resumption interval (387) - increasing resumption interval to 389
+0360.304 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0361.212 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0361.856 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.65 seconds
+0363.519 (0) The time we have been running (362.2) is approaching the resumption interval (389) - increasing resumption interval to 393
+0364.932 (0) The time we have been running (364.1) is approaching the resumption interval (393) - increasing resumption interval to 395
+0365.697 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0366.432 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0366.694 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0367.610 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 1.19 seconds
+0369.521 (0) The time we have been running (368) is approaching the resumption interval (395) - increasing resumption interval to 399
+0371.489 (0) The time we have been running (370.2) is approaching the resumption interval (399) - increasing resumption interval to 401
+0372.104 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0373.401 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 56
+0374.250 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0375.339 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=5622) in 1.94 seconds
+0376.971 (0) The time we have been running (375.9) is approaching the resumption interval (401) - increasing resumption interval to 406
+0378.749 (0) The time we have been running (377.8) is approaching the resumption interval (406) - increasing resumption interval to 408
+0379.385 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.1 KB)
+0380.815 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0381.631 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 1.58 seconds
+0382.975 (0) The time we have been running (382.2) is approaching the resumption interval (408) - increasing resumption interval to 413
+0384.608 (0) The time we have been running (383.6) is approaching the resumption interval (413) - increasing resumption interval to 414
+0385.038 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0386.548 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0386.810 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0387.541 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2152) in 1.04 seconds
+0388.716 (0) The time we have been running (387.8) is approaching the resumption interval (414) - increasing resumption interval to 418
+0390.468 (0) The time we have been running (389.6) is approaching the resumption interval (418) - increasing resumption interval to 420
+0392.527 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0394.536 (0) Table wp_links: Total expected rows (via COUNT): 0
+0396.004 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 1.68 seconds
+0397.930 (0) The time we have been running (396.3) is approaching the resumption interval (420) - increasing resumption interval to 427
+0400.913 (0) The time we have been running (399.1) is approaching the resumption interval (427) - increasing resumption interval to 430
+0402.255 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0405.887 (0) Table wp_postmeta: Total expected rows (via COUNT): 778
+0406.553 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0407.477 (0) Table wp_postmeta: Rows added in this batch (next record: 942): 778 (uncompressed bytes in this segment=633055) in 3.51 seconds
+0409.158 (0) The time we have been running (408.4) is approaching the resumption interval (430) - increasing resumption interval to 439
+0410.716 (0) The time we have been running (409.8) is approaching the resumption interval (439) - increasing resumption interval to 440
+0411.348 (0) Table wp_postmeta: finishing file(s) (2, 21.8 KB)
+0412.721 (0) Table wp_posts: Total expected rows (via COUNT): 139
+0413.036 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0413.891 (0) Table wp_posts: Rows added in this batch (next record: 162): 139 (uncompressed bytes in this segment=234782) in 1.61 seconds
+0415.742 (0) The time we have been running (414.8) is approaching the resumption interval (440) - increasing resumption interval to 445
+0417.109 (0) The time we have been running (416.4) is approaching the resumption interval (445) - increasing resumption interval to 447
+0418.053 (0) Table wp_posts: finishing file(s) (2, 16.5 KB)
+0418.945 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0419.847 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=753) in 0.91 seconds
+0421.071 (0) The time we have been running (420.1) is approaching the resumption interval (447) - increasing resumption interval to 451
+0422.761 (0) The time we have been running (421.7) is approaching the resumption interval (451) - increasing resumption interval to 452
+0423.462 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0424.789 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0425.081 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0425.908 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=988) in 1.58 seconds
+0427.497 (0) The time we have been running (426.6) is approaching the resumption interval (452) - increasing resumption interval to 457
+0429.423 (0) The time we have been running (428.2) is approaching the resumption interval (457) - increasing resumption interval to 459
+0430.229 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0432.004 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0432.832 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 1.75 seconds
+0435.214 (0) The time we have been running (433.6) is approaching the resumption interval (459) - increasing resumption interval to 464
+0437.237 (0) The time we have been running (436.1) is approaching the resumption interval (464) - increasing resumption interval to 467
+0437.910 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0438.856 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0439.223 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0440.215 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=832) in 1.40 seconds
+0441.685 (0) The time we have been running (440.6) is approaching the resumption interval (467) - increasing resumption interval to 471
+0443.625 (0) The time we have been running (442.6) is approaching the resumption interval (471) - increasing resumption interval to 473
+0444.477 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0445.844 (0) Table wp_duplicator_packages: Total expected rows (via COUNT): 1
+0446.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0446.449 (0) Table wp_duplicator_packages: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=19771) in 1.05 seconds
+0447.942 (0) The time we have been running (447) is approaching the resumption interval (473) - increasing resumption interval to 478
+0449.545 (0) The time we have been running (448.6) is approaching the resumption interval (478) - increasing resumption interval to 479
+0450.278 (0) Table wp_duplicator_packages: finishing file(s) (2, 5.2 KB)
+0451.144 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0451.996 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.89 seconds
+0453.154 (0) The time we have been running (452.3) is approaching the resumption interval (479) - increasing resumption interval to 483
+0455.176 (0) The time we have been running (454) is approaching the resumption interval (483) - increasing resumption interval to 485
+0456.285 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0458.151 (0) Table wp_frm_fields: Total expected rows (via COUNT): 5
+0458.408 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0459.310 (0) Table wp_frm_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=5946) in 1.63 seconds
+0460.983 (0) The time we have been running (460.1) is approaching the resumption interval (485) - increasing resumption interval to 491
+0462.996 (0) The time we have been running (461.6) is approaching the resumption interval (491) - increasing resumption interval to 492
+0463.664 (0) Table wp_frm_fields: finishing file(s) (2, 1.1 KB)
+0465.683 (0) Table wp_frm_forms: Total expected rows (via COUNT): 1
+0465.843 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0466.139 (0) Table wp_frm_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2518) in 1.02 seconds
+0467.998 (0) The time we have been running (466.9) is approaching the resumption interval (492) - increasing resumption interval to 497
+0469.766 (0) The time we have been running (468.9) is approaching the resumption interval (497) - increasing resumption interval to 499
+0470.443 (0) Table wp_frm_forms: finishing file(s) (2, 1.1 KB)
+0472.261 (0) Table wp_frm_item_metas: Total expected rows (via COUNT): 0
+0472.976 (0) Table wp_frm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 1.29 seconds
+0475.138 (0) The time we have been running (473.9) is approaching the resumption interval (499) - increasing resumption interval to 504
+0476.950 (0) The time we have been running (476) is approaching the resumption interval (504) - increasing resumption interval to 506
+0477.686 (0) Table wp_frm_item_metas: finishing file(s) (2, 0.4 KB)
+0478.946 (0) Table wp_frm_items: Total expected rows (via COUNT): 0
+0479.220 (0) Table wp_frm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1160) in 0.41 seconds
+0480.373 (0) The time we have been running (479.5) is approaching the resumption interval (506) - increasing resumption interval to 510
+0482.029 (0) The time we have been running (481.1) is approaching the resumption interval (510) - increasing resumption interval to 512
+0482.641 (0) Table wp_frm_items: finishing file(s) (2, 0.5 KB)
+0483.971 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0484.663 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 1.30 seconds
+0487.179 (0) The time we have been running (485.5) is approaching the resumption interval (512) - increasing resumption interval to 516
+0489.587 (0) The time we have been running (488.2) is approaching the resumption interval (516) - increasing resumption interval to 519
+0490.570 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0491.589 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0492.742 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1970) in 1.20 seconds
+0494.119 (0) The time we have been running (493.1) is approaching the resumption interval (519) - increasing resumption interval to 524
+0496.645 (0) The time we have been running (495.8) is approaching the resumption interval (524) - increasing resumption interval to 526
+0497.601 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0499.412 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0499.765 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0501.045 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=974) in 2.48 seconds
+0502.921 (0) The time we have been running (501.8) is approaching the resumption interval (526) - increasing resumption interval to 532
+0504.388 (0) The time we have been running (503.3) is approaching the resumption interval (532) - increasing resumption interval to 534
+0505.203 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0508.702 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 5
+0509.791 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0510.695 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=6452) in 2.82 seconds
+0519.249 (0) The time we have been running (515.5) is approaching the resumption interval (534) - increasing resumption interval to 546
+0526.308 (0) The time we have been running (522) is approaching the resumption interval (546) - increasing resumption interval to 553
+0528.107 (0) Table wp_yoast_indexable: finishing file(s) (2, 1.6 KB)
+0530.880 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 5
+0532.737 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=875) in 1.86 seconds
+0537.962 (0) The time we have been running (533.9) is approaching the resumption interval (553) - increasing resumption interval to 564
+0542.345 (0) The time we have been running (539.3) is approaching the resumption interval (564) - increasing resumption interval to 570
+0550.158 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0552.484 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0553.123 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0554.088 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 1.97 seconds
+0556.689 (0) The time we have been running (554.9) is approaching the resumption interval (570) - increasing resumption interval to 585
+0558.516 (0) The time we have been running (557.5) is approaching the resumption interval (585) - increasing resumption interval to 588
+0559.099 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0560.202 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0560.857 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.71 seconds
+0562.596 (0) The time we have been running (561.3) is approaching the resumption interval (588) - increasing resumption interval to 592
+0564.169 (0) The time we have been running (563.4) is approaching the resumption interval (592) - increasing resumption interval to 594
+0564.985 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0565.915 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 7
+0566.193 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0567.134 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 14): 7 (uncompressed bytes in this segment=2022) in 1.25 seconds
+0568.364 (0) The time we have been running (567.4) is approaching the resumption interval (594) - increasing resumption interval to 598
+0570.048 (0) The time we have been running (569.1) is approaching the resumption interval (598) - increasing resumption interval to 600
+0570.779 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.7 KB)
+0571.079 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content/updraft/backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz (line 1976, C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\updraftplus\backup.php)
+0571.384 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_options.table.tmpr1102.gz (1/30/fopen): adding to final database dump
+0571.904 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_options.table.gz (2/30/fopen): adding to final database dump
+0572.085 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_users.table.tmpr2.gz (3/30/fopen): adding to final database dump
+0572.314 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_users.table.gz (4/30/fopen): adding to final database dump
+0572.625 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_usermeta.table.tmpr31.gz (5/30/fopen): adding to final database dump
+0572.939 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_usermeta.table.gz (6/30/fopen): adding to final database dump
+0573.174 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_actions.table.tmpr102.gz (7/30/fopen): adding to final database dump
+0573.349 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_actions.table.gz (8/30/fopen): adding to final database dump
+0573.877 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/30/fopen): adding to final database dump
+0574.138 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_claims.table.gz (10/30/fopen): adding to final database dump
+0574.420 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/30/fopen): adding to final database dump
+0574.724 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_groups.table.gz (12/30/fopen): adding to final database dump
+0574.968 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_logs.table.tmpr57.gz (13/30/fopen): adding to final database dump
+0575.096 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_actionscheduler_logs.table.gz (14/30/fopen): adding to final database dump
+0575.520 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_commentmeta.table.tmpr0.gz (15/30/fopen): adding to final database dump
+0575.845 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_commentmeta.table.gz (16/30/fopen): adding to final database dump
+0576.170 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_comments.table.tmpr2.gz (17/30/fopen): adding to final database dump
+0576.519 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_comments.table.gz (18/30/fopen): adding to final database dump
+0576.941 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_links.table.tmpr0.gz (19/30/fopen): adding to final database dump
+0577.223 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_links.table.gz (20/30/fopen): adding to final database dump
+0577.785 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_postmeta.table.tmpr943.gz (21/30/fopen): adding to final database dump
+0578.492 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_postmeta.table.gz (22/30/fopen): adding to final database dump
+0579.045 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_posts.table.tmpr163.gz (23/30/fopen): adding to final database dump
+0579.724 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_posts.table.gz (24/30/fopen): adding to final database dump
+0580.352 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_term_relationships.table.tmpr100001.gz (25/30/fopen): adding to final database dump
+0581.224 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_term_relationships.table.gz (26/30/fopen): adding to final database dump
+0581.618 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_term_taxonomy.table.tmpr4.gz (27/30/fopen): adding to final database dump
+0581.871 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_term_taxonomy.table.gz (28/30/fopen): adding to final database dump
+0582.260 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_termmeta.table.tmpr0.gz (29/30/fopen): adding to final database dump
+0582.847 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_termmeta.table.gz (30/30/fopen): adding to final database dump
+0583.133 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_terms.table.tmpr4.gz (31/30/fopen): adding to final database dump
+0583.455 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_terms.table.gz (32/30/fopen): adding to final database dump
+0583.946 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_duplicator_packages.table.tmpr2.gz (33/30/fopen): adding to final database dump
+0584.404 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_duplicator_packages.table.gz (34/30/fopen): adding to final database dump
+0584.779 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_e_events.table.tmpr0.gz (35/30/fopen): adding to final database dump
+0585.100 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_e_events.table.gz (36/30/fopen): adding to final database dump
+0585.408 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_fields.table.tmpr6.gz (37/30/fopen): adding to final database dump
+0586.124 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_fields.table.gz (38/30/fopen): adding to final database dump
+0586.248 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_forms.table.tmpr2.gz (39/30/fopen): adding to final database dump
+0586.676 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_forms.table.gz (40/30/fopen): adding to final database dump
+0587.075 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_item_metas.table.tmpr0.gz (41/30/fopen): adding to final database dump
+0587.261 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_item_metas.table.gz (42/30/fopen): adding to final database dump
+0587.762 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_items.table.tmpr0.gz (43/30/fopen): adding to final database dump
+0588.060 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_frm_items.table.gz (44/30/fopen): adding to final database dump
+0588.431 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (45/30/fopen): adding to final database dump
+0588.828 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_payment_meta.table.gz (46/30/fopen): adding to final database dump
+0589.101 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_payments.table.tmpr0.gz (47/30/fopen): adding to final database dump
+0589.412 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_payments.table.gz (48/30/fopen): adding to final database dump
+0589.688 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (49/30/fopen): adding to final database dump
+0589.883 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_wpforms_tasks_meta.table.gz (50/30/fopen): adding to final database dump
+0590.041 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_indexable.table.tmpr7.gz (51/30/fopen): adding to final database dump
+0590.353 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_indexable.table.gz (52/30/fopen): adding to final database dump
+0590.683 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (53/30/fopen): adding to final database dump
+0590.953 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_indexable_hierarchy.table.gz (54/30/fopen): adding to final database dump
+0591.257 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_migrations.table.tmpr25.gz (55/30/fopen): adding to final database dump
+0591.579 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_migrations.table.gz (56/30/fopen): adding to final database dump
+0591.869 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_primary_term.table.tmpr0.gz (57/30/fopen): adding to final database dump
+0592.181 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_primary_term.table.gz (58/30/fopen): adding to final database dump
+0592.304 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_seo_links.table.tmpr15.gz (59/30/fopen): adding to final database dump
+0592.841 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db-table-wp_yoast_seo_links.table.gz (60/30/fopen): adding to final database dump
+0594.015 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: finished writing out complete database file (317.6 KB)
+0595.720 (0) Total database tables backed up: 30 (backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz, size: 325325, sha1: 63dd8a512e782090a97291c3095f310890c32c74, sha256: 7d20a188a1d1f801bb2a0b35237e76b1ffc0d1eb0891bd0578078bdfa54c717d)
+0598.144 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0598.610 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0599.374 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0600.392 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0600.718 (0) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0601.037 (0) Saving backup history. Total backup size: 38.5 MB
+0601.679 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0603.453 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0603.842 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0604.218 (0) Google Drive: this account is not authorised
+0605.084 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0605.535 (0) Number of backup sets in history: 5; groups (db): 1
+0605.919 (0) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+0606.227 (0) This backup set is the backup set just made, so will not be deleted.
+0606.227 (0) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+0606.227 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0606.550 (0) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+0606.550 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0606.551 (0) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+0606.551 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0606.551 (0) Examining (for databases) backup set with group_id=0, nonce=64c629e8a727, datestamp=1704646459 (Jan 07 2024 16:54:19)
+0606.551 (0) 1704646459: db: this set includes a database (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-db.gz); db count is now 4
+0606.552 (0) 1704646459: db: over retain limit (4); will delete this database
+0606.553 (0) Delete file: backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-db.gz, service=googledrive
+0606.866 (0) Deleting local copy (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-db.gz)
+0607.145 (0) Google Drive: this account is not authorised
+0607.286 (0) Google Drive: delete: failed due to storage error: not_authorized (Compte non autorisé.)
+0609.391 (0) The time we have been running (608.1) is approaching the resumption interval (600) - increasing resumption interval to 639
+0610.080 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0610.483 (0) Number of backup sets in history: 5; groups (files): 1
+0610.867 (0) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+0611.091 (0) This backup set is the backup set just made, so will not be deleted.
+0611.446 (0) This backup set is the backup set just made, so will not be deleted.
+0611.446 (0) This backup set is the backup set just made, so will not be deleted.
+0611.447 (0) This backup set is the backup set just made, so will not be deleted.
+0611.447 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0611.727 (0) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+0611.727 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0611.728 (0) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+0611.728 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0611.729 (0) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+0611.729 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0611.729 (0) Examining (for files) backup set with nonce=64c629e8a727, datestamp=1704646459 (Jan 07 2024 16:54:19)
+0611.729 (0) plugins: over retain limit (4); will delete this file entity
+0611.730 (0) themes: over retain limit (4); will delete this file entity
+0611.730 (0) uploads: over retain limit (4); will delete this file entity
+0611.730 (0) others: over retain limit (4); will delete this file entity
+0611.731 (0) Delete file: backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-plugins.zip, service=googledrive
+0612.084 (0) Deleting local copy (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-plugins.zip)
+0612.444 (0) Delete file: backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-themes.zip, service=googledrive
+0612.702 (0) Deleting local copy (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-themes.zip)
+0613.220 (0) Delete file: backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-uploads.zip, service=googledrive
+0613.575 (0) Deleting local copy (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-uploads.zip)
+0613.918 (0) Delete file: backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-others.zip, service=googledrive
+0614.213 (0) Deleting local copy (backup_2024-01-07-1654_LaVieDesPlantes_64c629e8a727-others.zip)
+0614.427 (0) Google Drive: this account is not authorised
+0614.775 (0) Google Drive: delete: failed due to storage error: not_authorized (Compte non autorisé.)
+0617.210 (0) The time we have been running (616.2) is approaching the resumption interval (639) - increasing resumption interval to 647
+0618.092 (0) This backup set is now empty; will remove from history
+0618.404 (0) Deleting log file (log.64c629e8a727.txt)
+0618.713 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0619.562 (0) Resume backup (8be871f10fe1, 0): finish run
+0620.651 (0) Decremented the semaphore (fd) by 1
+0621.276 (0) Semaphore (fd) unlocked
+0621.625 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0622.556 (0) No email will/can be sent - the user has not configured an email address.
+0623.370 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0653.748 (1) Opened log file at time: Mon, 15 Jan 2024 11:58:16 +0000 on http://la-vie-des-plantes.local
+0654.076 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.7M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0654.686 (1) Free space on disk containing Updraft's temporary directory: 815051.8 MB
+0655.016 (1) Requesting backup semaphore lock (8be871f10fe1)
+0655.680 (1) [Debug] Lock option (updraft_lock_8be871f10fe1, wp_options) was created in the database
+0655.904 (1) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired after initialising the database
+0656.849 (1) Backup run: resumption=1, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (657s ago), job type=backup, previous check-in=616.24s
+0657.244 (1) Scheduling a resumption (2) after 647 seconds (1705320547) in case this run gets aborted
+0657.836 (1) Checking if we have a zip executable available
+0658.193 (1) Creation of backups of directories: already finished
+0658.641 (1) Saving backup status to database (elements: 8)
+0659.466 (1) Database dump (WordPress DB): Creation was completed already
+0659.954 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0660.781 (1) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0661.091 (1) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0661.579 (1) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0662.030 (1) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0662.356 (1) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0662.656 (1) Saving backup history. Total backup size: 38.5 MB
+0663.511 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0664.119 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0664.265 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0664.847 (1) Google Drive: this account is not authorised
+0665.611 (1) An error condition has occurred for the first time during this job
+0668.786 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0669.137 (1) Number of backup sets in history: 4; groups (db): 1
+0669.974 (1) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+0670.927 (1) This backup set is the backup set just made, so will not be deleted.
+0670.927 (1) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+0670.927 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0671.558 (1) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+0671.558 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0671.559 (1) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+0671.559 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0671.559 (1) Number of backup sets in history: 4; groups (files): 1
+0672.109 (1) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+0672.110 (1) This backup set is the backup set just made, so will not be deleted.
+0672.518 (1) This backup set is the backup set just made, so will not be deleted.
+0672.519 (1) This backup set is the backup set just made, so will not be deleted.
+0672.519 (1) This backup set is the backup set just made, so will not be deleted.
+0672.519 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0672.956 (1) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+0672.956 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0673.778 (1) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+0674.160 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0674.518 (1) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+0674.518 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0674.519 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0676.591 (1) Resume backup (8be871f10fe1, 1): finish run
+0677.558 (1) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+0679.173 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0680.392 (1) No email will/can be sent - the user has not configured an email address.
+0680.990 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1310.030 (2) Opened log file at time: Mon, 15 Jan 2024 12:09:13 +0000 on http://la-vie-des-plantes.local
+1310.375 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1310.724 (2) Free space on disk containing Updraft's temporary directory: 815201.3 MB
+1310.999 (2) Requesting backup semaphore lock (8be871f10fe1)
+1311.630 (2) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+1312.504 (2) Backup run: resumption=2, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (1312s ago), job type=backup
+1313.166 (2) Scheduling a resumption (3) after 647 seconds (1705321203) in case this run gets aborted
+1313.821 (2) Checking if we have a zip executable available
+1314.165 (2) Creation of backups of directories: already finished
+1314.480 (2) Saving backup status to database (elements: 8)
+1315.381 (2) Database dump (WordPress DB): Creation was completed already
+1315.751 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1316.813 (2) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1317.159 (2) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1317.409 (2) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1317.718 (2) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+1317.993 (2) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+1318.295 (2) Saving backup history. Total backup size: 38.5 MB
+1319.016 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+1319.613 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1319.957 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+1320.280 (2) Google Drive: this account is not authorised
+1320.605 (2) An error condition has occurred for the first time during this job
+1321.310 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1321.678 (2) Number of backup sets in history: 4; groups (db): 1
+1322.049 (2) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+1322.360 (2) This backup set is the backup set just made, so will not be deleted.
+1322.360 (2) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+1322.360 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1322.487 (2) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+1322.487 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1322.488 (2) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+1322.488 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1322.488 (2) Number of backup sets in history: 4; groups (files): 1
+1322.820 (2) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+1322.821 (2) This backup set is the backup set just made, so will not be deleted.
+1323.163 (2) This backup set is the backup set just made, so will not be deleted.
+1323.163 (2) This backup set is the backup set just made, so will not be deleted.
+1323.164 (2) This backup set is the backup set just made, so will not be deleted.
+1323.164 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1323.410 (2) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+1323.410 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1323.411 (2) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+1323.411 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1323.412 (2) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+1323.412 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1323.412 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1324.029 (2) Resume backup (8be871f10fe1, 2): finish run
+1324.349 (2) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+1324.957 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1325.501 (2) No email will/can be sent - the user has not configured an email address.
+1325.855 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1966.072 (3) Opened log file at time: Mon, 15 Jan 2024 12:20:09 +0000 on http://la-vie-des-plantes.local
+1966.425 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1966.772 (3) Free space on disk containing Updraft's temporary directory: 815200.1 MB
+1967.093 (3) Requesting backup semaphore lock (8be871f10fe1)
+1967.693 (3) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+1968.276 (3) Backup run: resumption=3, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (1968s ago), job type=backup
+1968.972 (3) Scheduling a resumption (4) after 647 seconds (1705321859) in case this run gets aborted
+1969.719 (3) Checking if we have a zip executable available
+1970.005 (3) Creation of backups of directories: already finished
+1970.299 (3) Saving backup status to database (elements: 8)
+1970.944 (3) Database dump (WordPress DB): Creation was completed already
+1971.290 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+1972.270 (3) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1972.547 (3) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1972.913 (3) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1973.227 (3) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+1973.598 (3) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+1973.917 (3) Saving backup history. Total backup size: 38.5 MB
+1974.695 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1975.187 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1975.400 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+1975.626 (3) Google Drive: this account is not authorised
+1976.176 (3) An error condition has occurred for the first time during this job
+1978.667 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1979.906 (3) Number of backup sets in history: 4; groups (db): 1
+1980.796 (3) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+1981.490 (3) This backup set is the backup set just made, so will not be deleted.
+1981.490 (3) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+1981.490 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1981.999 (3) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+1982.000 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1982.734 (3) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+1982.734 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1982.734 (3) Number of backup sets in history: 4; groups (files): 1
+1983.098 (3) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+1983.098 (3) This backup set is the backup set just made, so will not be deleted.
+1983.328 (3) This backup set is the backup set just made, so will not be deleted.
+1983.328 (3) This backup set is the backup set just made, so will not be deleted.
+1983.329 (3) This backup set is the backup set just made, so will not be deleted.
+1983.329 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1983.547 (3) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+1983.547 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1983.548 (3) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+1983.548 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1983.549 (3) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+1983.549 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1983.549 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1984.305 (3) Resume backup (8be871f10fe1, 3): finish run
+1984.595 (3) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+1985.200 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1985.686 (3) No email will/can be sent - the user has not configured an email address.
+1986.066 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2621.377 (4) Opened log file at time: Mon, 15 Jan 2024 12:31:04 +0000 on http://la-vie-des-plantes.local
+2621.625 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+2621.837 (4) Free space on disk containing Updraft's temporary directory: 815191.3 MB
+2622.166 (4) Requesting backup semaphore lock (8be871f10fe1)
+2622.597 (4) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+2623.019 (4) Backup run: resumption=4, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (2623s ago), job type=backup
+2623.793 (4) Scheduling a resumption (5) after 647 seconds (1705322514) in case this run gets aborted
+2624.411 (4) Checking if we have a zip executable available
+2624.595 (4) Creation of backups of directories: already finished
+2624.802 (4) Saving backup status to database (elements: 8)
+2625.193 (4) Database dump (WordPress DB): Creation was completed already
+2625.473 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+2626.061 (4) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2626.331 (4) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2626.634 (4) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2626.866 (4) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+2627.085 (4) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+2627.336 (4) Saving backup history. Total backup size: 38.5 MB
+2628.057 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+2628.532 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2628.871 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+2629.179 (4) Google Drive: this account is not authorised
+2629.513 (4) An error condition has occurred for the first time during this job
+2630.050 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2630.314 (4) Number of backup sets in history: 4; groups (db): 1
+2630.569 (4) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+2630.783 (4) This backup set is the backup set just made, so will not be deleted.
+2630.783 (4) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+2630.783 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.137 (4) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+2631.138 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.138 (4) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+2631.138 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.139 (4) Number of backup sets in history: 4; groups (files): 1
+2631.392 (4) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+2631.392 (4) This backup set is the backup set just made, so will not be deleted.
+2631.598 (4) This backup set is the backup set just made, so will not be deleted.
+2631.599 (4) This backup set is the backup set just made, so will not be deleted.
+2631.600 (4) This backup set is the backup set just made, so will not be deleted.
+2631.600 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.793 (4) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+2631.793 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.990 (4) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+2631.991 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.991 (4) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+2631.991 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2631.992 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2632.625 (4) Resume backup (8be871f10fe1, 4): finish run
+2632.868 (4) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+2633.384 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2633.920 (4) No email will/can be sent - the user has not configured an email address.
+2634.131 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+3273.801 (5) Opened log file at time: Mon, 15 Jan 2024 12:41:57 +0000 on http://la-vie-des-plantes.local
+3273.990 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+3274.404 (5) Free space on disk containing Updraft's temporary directory: 814974 MB
+3274.616 (5) Requesting backup semaphore lock (8be871f10fe1)
+3275.097 (5) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+3275.583 (5) Backup run: resumption=5, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (3275s ago), job type=backup
+3276.018 (5) Scheduling a resumption (6) after 647 seconds (1705323166) in case this run gets aborted
+3276.460 (5) Checking if we have a zip executable available
+3276.741 (5) Creation of backups of directories: already finished
+3277.019 (5) Saving backup status to database (elements: 8)
+3277.497 (5) Database dump (WordPress DB): Creation was completed already
+3277.822 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+3278.553 (5) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3278.867 (5) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3279.083 (5) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3279.294 (5) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+3279.509 (5) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+3279.740 (5) Saving backup history. Total backup size: 38.5 MB
+3280.229 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+3280.721 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3280.931 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+3281.265 (5) Google Drive: this account is not authorised
+3281.458 (5) An error condition has occurred for the first time during this job
+3281.868 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3282.014 (5) Number of backup sets in history: 4; groups (db): 1
+3282.282 (5) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+3282.478 (5) This backup set is the backup set just made, so will not be deleted.
+3282.478 (5) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+3282.478 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3282.698 (5) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+3282.698 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3282.699 (5) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+3282.699 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3282.700 (5) Number of backup sets in history: 4; groups (files): 1
+3282.907 (5) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+3282.907 (5) This backup set is the backup set just made, so will not be deleted.
+3283.122 (5) This backup set is the backup set just made, so will not be deleted.
+3283.122 (5) This backup set is the backup set just made, so will not be deleted.
+3283.123 (5) This backup set is the backup set just made, so will not be deleted.
+3283.123 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3283.424 (5) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+3283.424 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3283.424 (5) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+3283.424 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3283.425 (5) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+3283.425 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3283.425 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3283.796 (5) Resume backup (8be871f10fe1, 5): finish run
+3284.049 (5) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+3284.551 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3284.929 (5) No email will/can be sent - the user has not configured an email address.
+3285.155 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+3927.182 (6) Opened log file at time: Mon, 15 Jan 2024 12:52:50 +0000 on http://la-vie-des-plantes.local
+3927.436 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+3927.584 (6) Free space on disk containing Updraft's temporary directory: 814973 MB
+3927.861 (6) Requesting backup semaphore lock (8be871f10fe1)
+3928.525 (6) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+3929.175 (6) Backup run: resumption=6, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (3929s ago), job type=backup
+3929.778 (6) Scheduling a resumption (7) after 647 seconds (1705323820) in case this run gets aborted
+3930.057 (6) Checking if we have a zip executable available
+3930.144 (6) Creation of backups of directories: already finished
+3930.201 (6) Saving backup status to database (elements: 8)
+3931.025 (6) Database dump (WordPress DB): Creation was completed already
+3931.125 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+3931.668 (6) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3931.910 (6) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3932.237 (6) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3932.559 (6) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+3932.738 (6) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+3932.967 (6) Saving backup history. Total backup size: 38.5 MB
+3933.302 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+3933.900 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3933.967 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+3934.213 (6) Google Drive: this account is not authorised
+3934.399 (6) An error condition has occurred for the first time during this job
+3934.923 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3935.202 (6) Number of backup sets in history: 4; groups (db): 1
+3935.642 (6) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+3935.764 (6) This backup set is the backup set just made, so will not be deleted.
+3935.764 (6) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+3935.764 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3936.086 (6) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+3936.087 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3936.399 (6) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+3936.399 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3936.400 (6) Number of backup sets in history: 4; groups (files): 1
+3936.597 (6) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+3936.597 (6) This backup set is the backup set just made, so will not be deleted.
+3936.733 (6) This backup set is the backup set just made, so will not be deleted.
+3936.734 (6) This backup set is the backup set just made, so will not be deleted.
+3936.734 (6) This backup set is the backup set just made, so will not be deleted.
+3936.734 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3936.911 (6) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+3936.911 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3937.073 (6) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+3937.073 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3937.074 (6) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+3937.074 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3937.074 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3937.879 (6) Resume backup (8be871f10fe1, 6): finish run
+3938.218 (6) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+3938.503 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3938.914 (6) No email will/can be sent - the user has not configured an email address.
+3939.000 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+4581.171 (7) Opened log file at time: Mon, 15 Jan 2024 13:03:44 +0000 on http://la-vie-des-plantes.local
+4581.292 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+4581.391 (7) Free space on disk containing Updraft's temporary directory: 814971.7 MB
+4581.504 (7) Requesting backup semaphore lock (8be871f10fe1)
+4581.658 (7) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+4582.036 (7) Backup run: resumption=7, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (4582s ago), job type=backup
+4582.181 (7) Scheduling a resumption (8) after 647 seconds (1705324472) in case this run gets aborted
+4582.607 (7) Checking if we have a zip executable available
+4582.670 (7) Creation of backups of directories: already finished
+4582.752 (7) Saving backup status to database (elements: 8)
+4583.003 (7) Database dump (WordPress DB): Creation was completed already
+4583.182 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+4583.437 (7) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4583.559 (7) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4583.797 (7) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4583.986 (7) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+4584.144 (7) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+4584.358 (7) Saving backup history. Total backup size: 38.5 MB
+4584.591 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+4584.791 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4584.925 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+4585.133 (7) Google Drive: this account is not authorised
+4585.414 (7) An error condition has occurred for the first time during this job
+4585.569 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+4585.638 (7) Number of backup sets in history: 4; groups (db): 1
+4585.791 (7) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+4585.870 (7) This backup set is the backup set just made, so will not be deleted.
+4585.870 (7) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+4585.870 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4585.978 (7) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+4585.979 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4585.979 (7) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+4585.979 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4585.979 (7) Number of backup sets in history: 4; groups (files): 1
+4586.047 (7) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+4586.047 (7) This backup set is the backup set just made, so will not be deleted.
+4586.114 (7) This backup set is the backup set just made, so will not be deleted.
+4586.115 (7) This backup set is the backup set just made, so will not be deleted.
+4586.115 (7) This backup set is the backup set just made, so will not be deleted.
+4586.115 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4586.237 (7) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+4586.238 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4586.238 (7) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+4586.238 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4586.238 (7) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+4586.238 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4586.239 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4586.710 (7) Resume backup (8be871f10fe1, 7): finish run
+4586.826 (7) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+4587.092 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4587.324 (7) No email will/can be sent - the user has not configured an email address.
+4587.413 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5528.159 (8) Opened log file at time: Mon, 15 Jan 2024 13:19:31 +0000 on http://la-vie-des-plantes.local
+5528.735 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+5529.081 (8) Free space on disk containing Updraft's temporary directory: 814967.4 MB
+5529.867 (8) Requesting backup semaphore lock (8be871f10fe1)
+5530.739 (8) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+5531.469 (8) Backup run: resumption=8, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (5531s ago), job type=backup
+5532.649 (8) Scheduling a resumption (9) after 647 seconds (1705325422) in case this run gets aborted
+5533.807 (8) Checking if we have a zip executable available
+5534.119 (8) Creation of backups of directories: already finished
+5534.469 (8) Saving backup status to database (elements: 8)
+5535.150 (8) Database dump (WordPress DB): Creation was completed already
+5535.423 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+5536.554 (8) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5536.882 (8) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5537.545 (8) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5538.438 (8) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+5538.833 (8) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+5539.133 (8) Saving backup history. Total backup size: 38.5 MB
+5540.010 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+5540.470 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5541.035 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+5541.435 (8) Google Drive: this account is not authorised
+5541.720 (8) An error condition has occurred for the first time during this job
+5542.398 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+5542.639 (8) Number of backup sets in history: 4; groups (db): 1
+5542.967 (8) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+5543.268 (8) This backup set is the backup set just made, so will not be deleted.
+5543.268 (8) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+5543.268 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5543.582 (8) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+5543.582 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5543.583 (8) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+5543.583 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5543.583 (8) Number of backup sets in history: 4; groups (files): 1
+5543.954 (8) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+5543.955 (8) This backup set is the backup set just made, so will not be deleted.
+5544.425 (8) This backup set is the backup set just made, so will not be deleted.
+5544.425 (8) This backup set is the backup set just made, so will not be deleted.
+5544.426 (8) This backup set is the backup set just made, so will not be deleted.
+5544.426 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5544.593 (8) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+5544.593 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5544.594 (8) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+5544.594 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5544.594 (8) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+5544.594 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5544.594 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5552.227 (8) Resume backup (8be871f10fe1, 8): finish run
+5552.658 (8) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+5553.425 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5553.803 (8) No email will/can be sent - the user has not configured an email address.
+5554.256 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+6184.576 (9) Opened log file at time: Mon, 15 Jan 2024 13:30:27 +0000 on http://la-vie-des-plantes.local
+6184.628 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.2M | 20M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+6184.683 (9) Free space on disk containing Updraft's temporary directory: 814967 MB
+6184.861 (9) Requesting backup semaphore lock (8be871f10fe1)
+6185.016 (9) [Info] Lock (updraft_lock_8be871f10fe1, wp_options) acquired
+6185.249 (9) Backup run: resumption=9, nonce=8be871f10fe1, file_nonce=8be871f10fe1 begun at=1705319243 (6185s ago), job type=backup
+6185.404 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+6185.560 (9) Scheduling a resumption (10) after 647 seconds (1705326075); but the job will then be aborted unless something happens this time
+6185.729 (9) Creation of backups of directories: already finished
+6185.799 (9) Saving backup status to database (elements: 8)
+6186.185 (9) Database dump (WordPress DB): Creation was completed already
+6186.241 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+6186.483 (9) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6186.550 (9) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+6186.605 (9) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6186.661 (9) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-others.zip: others: This file has not yet been successfully uploaded: will queue
+6186.716 (9) backup_2024-01-15-1147_LaVieDesPlantes_8be871f10fe1-db.gz: db: This file has not yet been successfully uploaded: will queue
+6186.772 (9) Saving backup history. Total backup size: 38.5 MB
+6187.071 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+6187.205 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6187.261 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+6187.382 (9) Google Drive: this account is not authorised
+6187.448 (9) An error condition has occurred for the first time during this job
+6187.572 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+6187.644 (9) Number of backup sets in history: 4; groups (db): 1
+6187.717 (9) Examining (for databases) backup set with group_id=0, nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+6187.772 (9) This backup set is the backup set just made, so will not be deleted.
+6187.772 (9) Examining (for databases) backup set with group_id=0, nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+6187.772 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6187.839 (9) Examining (for databases) backup set with group_id=0, nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+6187.839 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6187.839 (9) Examining (for databases) backup set with group_id=0, nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+6187.840 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6187.840 (9) Number of backup sets in history: 4; groups (files): 1
+6187.894 (9) Examining (for files) backup set with nonce=8be871f10fe1, datestamp=1705319243 (Jan 15 2024 11:47:23)
+6187.894 (9) This backup set is the backup set just made, so will not be deleted.
+6187.961 (9) This backup set is the backup set just made, so will not be deleted.
+6187.961 (9) This backup set is the backup set just made, so will not be deleted.
+6187.962 (9) This backup set is the backup set just made, so will not be deleted.
+6187.962 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6188.028 (9) Examining (for files) backup set with nonce=bf495d23c8ca, datestamp=1704922997 (Jan 10 2024 21:43:17)
+6188.028 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6188.029 (9) Examining (for files) backup set with nonce=79868c9842e2, datestamp=1704889256 (Jan 10 2024 12:20:56)
+6188.029 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6188.029 (9) Examining (for files) backup set with nonce=e0bb3db47e33, datestamp=1704663760 (Jan 07 2024 21:42:40)
+6188.030 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+6188.030 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+6188.271 (9) Resume backup (8be871f10fe1, 9): finish run
+6188.327 (9) [Info] Lock option (updraft_lock_8be871f10fe1, wp_options) released
+6188.503 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+6188.704 (9) No email will/can be sent - the user has not configured an email address.
+6188.771 (9) La tentative de sauvegarde est terminée, apparemment sans succès

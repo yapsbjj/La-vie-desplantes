@@ -1,0 +1,138 @@
+0000.004 (0) Opened log file at time: Mon, 05 Feb 2024 08:35:58 +0000 on http://la-vie-des-plantes.local
+0000.135 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.1.23 (cgi-fcgi, Windows NT DESKTOP-HHH1LD9 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 16M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.200 (0) Free space on disk containing Updraft's temporary directory: 801192.5 MB
+0000.411 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.735 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.293 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1706520613, seconds_ago=601546)
+0002.437 (0) Set semaphore last lock (fd) time to 2024-02-05 08:36:01
+0002.653 (0) Semaphore lock (fd) complete
+0004.301 (0) Backup run: resumption=0, nonce=fb5a0536f6a7, file_nonce=fb5a0536f6a7 begun at=1707122158 (4s ago), job type=backup
+0005.132 (0) Scheduling a resumption (1) after 600 seconds (1707122763) in case this run gets aborted
+0006.033 (0) Checking if we have a zip executable available
+0006.699 (0) Creation of backups of directories: beginning
+0007.820 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0053.224 (0) Total entities for the zip file: 1248 directories, 6273 files (0 skipped as non-modified), 108.5 MB
+0059.217 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0060.842 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 100 files added (on-disk size: 282.4 KB)
+0061.280 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 200 files added (on-disk size: 282.4 KB)
+0061.585 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 300 files added (on-disk size: 282.4 KB)
+0061.986 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 400 files added (on-disk size: 282.4 KB)
+0062.389 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 500 files added (on-disk size: 282.4 KB)
+0063.157 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 600 files added (on-disk size: 282.4 KB)
+0063.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.6 MB, 626 (627) files added so far); re-opening (prior size: 282.4 KB)
+0076.799 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 700 files added (on-disk size: 4505.8 KB)
+0077.275 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 800 files added (on-disk size: 4505.8 KB)
+0077.767 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 900 files added (on-disk size: 4505.8 KB)
+0078.136 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1000 files added (on-disk size: 4505.8 KB)
+0078.486 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1100 files added (on-disk size: 4505.8 KB)
+0079.339 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.8 MB, 543 (1170) files added so far); re-opening (prior size: 4505.8 KB)
+0102.134 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1200 files added (on-disk size: 6112.8 KB)
+0102.648 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1300 files added (on-disk size: 6112.8 KB)
+0102.983 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1400 files added (on-disk size: 6112.8 KB)
+0103.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 6273 files batched, 316 (1486) added so far); re-opening (prior size: 6112.8 KB)
+0115.041 (0) A useful amount of data was added after this amount of zip processing: 13.7 s (normalised: 13.7 s, rate: 1872.3 KB/s)
+0115.764 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1500 files added (on-disk size: 12813.3 KB)
+0116.155 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1600 files added (on-disk size: 12813.3 KB)
+0116.834 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1700 files added (on-disk size: 12813.3 KB)
+0117.649 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1800 files added (on-disk size: 12813.3 KB)
+0118.260 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 1900 files added (on-disk size: 12813.3 KB)
+0118.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.2 MB, 415 (1901) files added so far); re-opening (prior size: 12813.3 KB)
+0130.433 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2000 files added (on-disk size: 14638.7 KB)
+0130.940 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2100 files added (on-disk size: 14638.7 KB)
+0131.334 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2200 files added (on-disk size: 14638.7 KB)
+0131.705 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2300 files added (on-disk size: 14638.7 KB)
+0132.142 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2400 files added (on-disk size: 14638.7 KB)
+0132.423 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.5 MB, 500 (2401) files added so far); re-opening (prior size: 14638.7 KB)
+0142.538 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2500 files added (on-disk size: 17062.3 KB)
+0142.936 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2600 files added (on-disk size: 17062.3 KB)
+0143.442 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2700 files added (on-disk size: 17062.3 KB)
+0143.934 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2800 files added (on-disk size: 17062.3 KB)
+0144.286 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 2900 files added (on-disk size: 17062.3 KB)
+0144.507 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (16.4 MB, 500 (2901) files added so far); re-opening (prior size: 17062.3 KB)
+0167.547 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3000 files added (on-disk size: 21566.1 KB)
+0169.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 154 (3055) files added so far); re-opening (prior size: 21566.1 KB)
+0175.895 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3100 files added (on-disk size: 22031.6 KB)
+0176.208 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3200 files added (on-disk size: 22031.6 KB)
+0176.710 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3300 files added (on-disk size: 22031.6 KB)
+0177.026 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3400 files added (on-disk size: 22031.6 KB)
+0177.439 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3500 files added (on-disk size: 22031.6 KB)
+0177.752 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3600 files added (on-disk size: 22031.6 KB)
+0178.059 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3700 files added (on-disk size: 22031.6 KB)
+0178.319 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (10.5 MB, 725 (3780) files added so far); re-opening (prior size: 22031.6 KB)
+0194.177 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3800 files added (on-disk size: 25363.2 KB)
+0194.719 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 3900 files added (on-disk size: 25363.2 KB)
+0195.012 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4000 files added (on-disk size: 25363.2 KB)
+0195.346 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4100 files added (on-disk size: 25363.2 KB)
+0195.846 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4200 files added (on-disk size: 25363.2 KB)
+0196.137 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4300 files added (on-disk size: 25363.2 KB)
+0196.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 571 (4351) files added so far); re-opening (prior size: 25363.2 KB)
+0200.955 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4400 files added (on-disk size: 26086.4 KB)
+0201.310 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4500 files added (on-disk size: 26086.4 KB)
+0201.674 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4600 files added (on-disk size: 26086.4 KB)
+0202.096 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4700 files added (on-disk size: 26086.4 KB)
+0202.544 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4800 files added (on-disk size: 26086.4 KB)
+0202.984 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 4900 files added (on-disk size: 26086.4 KB)
+0203.319 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (11.7 MB, 601 (4952) files added so far); re-opening (prior size: 26086.4 KB)
+0223.934 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5000 files added (on-disk size: 29619.3 KB)
+0224.470 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5100 files added (on-disk size: 29619.3 KB)
+0224.792 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5200 files added (on-disk size: 29619.3 KB)
+0225.098 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5300 files added (on-disk size: 29619.3 KB)
+0225.452 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7 MB, 349 (5301) files added so far); re-opening (prior size: 29619.3 KB)
+0240.182 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5400 files added (on-disk size: 33704.1 KB)
+0240.605 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5500 files added (on-disk size: 33704.1 KB)
+0241.065 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5600 files added (on-disk size: 33704.1 KB)
+0241.354 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5700 files added (on-disk size: 33704.1 KB)
+0241.679 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5800 files added (on-disk size: 33704.1 KB)
+0242.209 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 5900 files added (on-disk size: 33704.1 KB)
+0242.550 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5 MB, 600 (5901) files added so far); re-opening (prior size: 33704.1 KB)
+0254.419 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 6000 files added (on-disk size: 35223.1 KB)
+0254.917 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 6100 files added (on-disk size: 35223.1 KB)
+0255.211 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.tmp: 6200 files added (on-disk size: 35223.1 KB)
+0262.318 (0) Creating zip file manifest (backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-plugins.zip.list-temp.tmp)
+0262.857 (0) Successfully created zip file manifest (size: 516841)
+0265.208 (0) Created plugins zip (0) - 35799.4 KB in 255.2 s (140.3 KB/s) (sha1: 86af041d41b1ad1a80d611f0e9ed3af6543ca7d2, sha256: df1fc07766b3eb4fbc2a0e3e3bef68c431bf00ce26edfa8fd36a648d2ade46f2)
+0266.220 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0266.533 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0266.850 (0) Google Drive: this account is not authorised
+0267.166 (0) An error condition has occurred for the first time during this job
+0268.129 (0) Beginning creation of dump of themes (split every: 400 MB)
+0268.841 (0) Total entities for the zip file: 10 directories, 67 files (0 skipped as non-modified), 0.8 MB
+0271.114 (0) Creating zip file manifest (backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-themes.zip.list-temp.tmp)
+0271.298 (0) Successfully created zip file manifest (size: 3743)
+0272.632 (0) Created themes zip (0) - 607 KB in 4.1 s (147.4 KB/s) (sha1: 4ac6cd6a8e9d7064569ccab0bed2fd4322864712, sha256: 2e794d45f4a4e9ab2e3529314d5d63bea03872488259c8938ba5752231dadb6c)
+0273.263 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0273.506 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0273.714 (0) Google Drive: this account is not authorised
+0274.991 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0275.344 (0) Looking for candidates to backup in: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content/uploads
+0275.552 (0) finding files: 2024: adding to list (1)
+0275.881 (0) finding files: elementor: adding to list (2)
+0276.186 (0) finding files: wpforms: adding to list (3)
+0276.336 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0277.749 (0) Total entities for the zip file: 7 directories, 39 files (0 skipped as non-modified), 2.2 MB
+0281.195 (0) Creating zip file manifest (backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-uploads.zip.list-temp.tmp)
+0283.846 (0) Successfully created zip file manifest (size: 2257)
+0285.895 (0) Created uploads zip (0) - 1154.9 KB in 8.8 s (131.8 KB/s) (sha1: 6342861882e620cc879a4f7dc5301c9c3ac10fa2, sha256: f18fd40f1f5abf520c0c74a2f3ce1c5bd26981be91fb46a20e12439726a35f1d)
+0286.904 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0287.160 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9d9ea062813b3a3d3edb42939fbcb843)
+0287.490 (0) Google Drive: this account is not authorised
+0288.606 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0288.892 (0) Does not exist: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content/mu-plugins
+0289.458 (0) There are no mu-plugins to backup. Will not raise an error.
+0289.777 (0) mu-plugins: create_zip returned an error
+0290.378 (0) Beginning backup of other directories found in the content directory (index: 0)
+0290.559 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0290.955 (0) Looking for candidates to backup in: C:\Users\Fatima\Local Sites\la-vie-des-plantes\app\public/wp-content
+0291.307 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0291.676 (0) finding files: cache: skipping: excluded by options
+0292.289 (0) finding files: index.php: adding to list (1)
+0292.445 (0) finding files: languages: adding to list (2)
+0292.778 (0) finding files: plugins: skipping: this is the plugins directory
+0293.171 (0) finding files: themes: skipping: this is the themes directory
+0293.527 (0) finding files: updraft: skipping: this is the updraft directory
+0293.861 (0) finding files: upgrade: skipping: excluded by options
+0294.196 (0) finding files: upgrade-temp-backup: adding to list (3)
+0294.469 (0) finding files: uploads: skipping: this is the uploads directory
+0295.361 (0) Total entities for the zip file: 5 directories, 155 files (0 skipped as non-modified), 5.5 MB
+0295.792 (0) Zip: backup_2024-02-05-0835_LaVieDesPlantes_fb5a0536f6a7-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0302.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.3 MB, 101 (101) files added so far); re-opening (prior size: 0 KB)
